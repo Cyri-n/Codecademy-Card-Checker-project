@@ -47,6 +47,8 @@ const idInvalidCardCompanies = arr => {
         if (companyArray.indexOf('Discover') === -1) {
           companyArray.push('Discover')
       }
+    } else {
+      companyArray.push('Unknown company')
     }
     return companyArray;
 };
