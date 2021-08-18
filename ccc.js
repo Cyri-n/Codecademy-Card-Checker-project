@@ -50,5 +50,6 @@ const idInvalidCardCompanies = arr => {
     }
     return companyArray;
 };
+
 const plsWork = findInvalidCards(batch)
 console.log(idInvalidCardCompanies(plsWork))
